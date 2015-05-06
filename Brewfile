@@ -4,6 +4,9 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
+cask install google-chrome
+cask install google-japanese-ime
+cask install java
 
 ## rcmdnk/file
 tap rcmdnk/file
