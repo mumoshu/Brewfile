@@ -20,6 +20,8 @@ install elasticsearch
 install gdbm
 install libevent
 install memcached
+install mysql
+install node
 install openssl
 install pkg-config
 install postgresql
