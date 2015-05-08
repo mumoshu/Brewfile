@@ -7,6 +7,7 @@ install brew-cask
 cask install google-chrome
 cask install google-japanese-ime
 cask install java
+cask install slack
 cask install vagrant
 cask install virtualbox
 
