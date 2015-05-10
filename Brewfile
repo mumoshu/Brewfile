@@ -16,6 +16,7 @@ tap rcmdnk/file
 install brew-file
 
 # Other Homebrew packages
+install apg
 install autoconf
 install elasticsearch
 install gdbm
