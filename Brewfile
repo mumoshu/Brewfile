@@ -4,8 +4,10 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
+cask install chefdk
 cask install google-chrome
 cask install google-japanese-ime
+cask install iterm2
 cask install java
 cask install slack
 cask install vagrant
@@ -20,6 +22,7 @@ install apg
 install autoconf
 install elasticsearch
 install gdbm
+install hub
 install libevent
 install memcached
 install mysql
