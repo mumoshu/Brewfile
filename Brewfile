@@ -3,35 +3,43 @@
 
 ## caskroom/cask
 tap caskroom/cask
-install brew-cask
-cask install chefdk
-cask install google-chrome
-cask install google-japanese-ime
-cask install iterm2
-cask install java
-cask install slack
-cask install vagrant
-cask install virtualbox
+brew brew-cask
+cask chefdk
+cask google-chrome
+cask google-japanese-ime
+cask iterm2
+cask java
+cask slack
+cask vagrant
+cask virtualbox
 
 ## rcmdnk/file
 tap rcmdnk/file
-install brew-file
+brew brew-file
 
 # Other Homebrew packages
-install apg
-install autoconf
-install elasticsearch
-install gdbm
-install hub
-install libevent
-install memcached
-install mysql
-install node
-install openssl
-install pkg-config
-install postgresql
-install python
-install rbenv
-install readline
-install ruby-build
-install sqlite
+brew apg
+brew autoconf
+brew boost
+brew elasticsearch
+brew gdbm
+brew hub
+brew libevent
+brew memcached
+brew mysql
+brew node
+brew openssl
+brew pkg-config
+brew postgresql
+brew python
+brew rbenv
+brew readline
+brew ruby-build
+brew sqlite
+
+# App Store applications
+appstore GarageBand
+appstore iMovie
+appstore Keynote
+appstore Numbers
+appstore Pages
