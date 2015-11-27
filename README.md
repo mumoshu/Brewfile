@@ -16,3 +16,16 @@ if [ -f $(brew --prefix)/etc/brew-wrap ];then
   source $(brew --prefix)/etc/brew-wrap
 fi
 ```
+
+Configure SSH keys and verify connectivity to GitHub:
+
+```
+$ ssh git@github.com
+```
+
+Install all the apps:
+
+```
+$ brew file set_repo -r git@github.com:mumoshu/Brewfile
+$ brew file update
+```
