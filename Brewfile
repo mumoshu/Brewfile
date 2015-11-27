@@ -5,6 +5,7 @@
 tap caskroom/cask
 brew brew-cask
 cask chefdk
+cask dropbox
 cask google-chrome
 cask google-japanese-ime
 cask iterm2
