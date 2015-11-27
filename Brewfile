@@ -11,6 +11,7 @@ cask google-chrome
 cask google-japanese-ime
 cask iterm2
 cask java
+cask skype
 cask slack
 cask vagrant
 cask virtualbox
