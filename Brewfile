@@ -9,6 +9,7 @@ cask alfred
 cask chefdk
 cask dropbox
 cask google-chrome
+cask google-drive
 cask google-japanese-ime
 cask iterm2
 cask java
@@ -24,6 +25,7 @@ brew brew-file
 # Other Homebrew packages
 brew apg
 brew autoconf
+brew awscli
 brew boost
 brew elasticsearch
 brew gdbm
