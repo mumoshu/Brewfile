@@ -5,6 +5,7 @@
 tap caskroom/cask
 brew brew-cask
 cask 1password
+cask alfred
 cask chefdk
 cask dropbox
 cask google-chrome
