@@ -13,6 +13,7 @@ cask google-drive
 cask google-japanese-ime
 cask iterm2
 cask java
+cask sizeup
 cask skype
 cask slack
 cask vagrant
