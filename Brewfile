@@ -7,6 +7,7 @@ brew brew-cask
 cask 1password
 cask alfred
 cask chefdk
+cask cocoapods
 cask dropbox
 cask google-chrome
 cask google-drive
@@ -25,6 +26,7 @@ tap rcmdnk/file
 brew brew-file
 
 # Other Homebrew packages
+brew ansible
 brew apg
 brew autoconf
 brew awscli
@@ -43,6 +45,7 @@ brew python
 brew rbenv
 brew readline
 brew ruby-build
+brew sbt
 brew sqlite
 
 # App Store applications
