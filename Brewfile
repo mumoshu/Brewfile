@@ -11,6 +11,7 @@ cask dropbox
 cask google-chrome
 cask google-drive
 cask google-japanese-ime
+cask intellij-idea
 cask iterm2
 cask java
 cask sizeup
