@@ -15,6 +15,8 @@ Add the following code to my .bashrc:
 if [ -f $(brew --prefix)/etc/brew-wrap ];then
   source $(brew --prefix)/etc/brew-wrap
 fi
+
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 ```
 
 Configure SSH keys and verify connectivity to GitHub:
