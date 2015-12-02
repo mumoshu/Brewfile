@@ -31,6 +31,7 @@ brew apg
 brew autoconf
 brew awscli
 brew boost
+brew direnv
 brew elasticsearch
 brew gdbm
 brew git-flow
