@@ -21,6 +21,9 @@ cask slack
 cask vagrant
 cask virtualbox
 
+## mumoshu/go-jira
+tap mumoshu/go-jira
+
 ## rcmdnk/file
 tap rcmdnk/file
 brew brew-file
@@ -35,6 +38,7 @@ brew direnv
 brew elasticsearch
 brew gdbm
 brew git-flow
+brew go-jira
 brew hub
 brew libevent
 brew memcached
