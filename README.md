@@ -9,7 +9,7 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 $ curl -fsSL https://raw.github.com/rcmdnk/homebrew-file/install/install.sh |sh
 ```
 
-Add the following code to my .bashrc:
+Add the following code to my .bash_profile:
 
 ```
 if [ -f $(brew --prefix)/etc/brew-wrap ];then
@@ -17,6 +17,14 @@ if [ -f $(brew --prefix)/etc/brew-wrap ];then
 fi
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+test -f ~/.bashrc && . ~/.bashrc
+```
+
+Add the following code to my .bashrc:
+
+```
+eval "$(direnv hook bash)"
 ```
 
 Configure SSH keys and verify connectivity to GitHub:
