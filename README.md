@@ -50,3 +50,22 @@ $ cat ~/Library/Preferences/IntelliJIdea15/idea.vmoptions
 -XX:MaxPermSize=350m
 -XX:ReservedCodeCacheSize=240m
 ```
+[Configure SBT for more performance](http://stackoverflow.com/a/14561346):
+
+```
+$ cat /usr/local/etc/sbtops
+*snip*
+# set memory options
+#
+#-mem   <integer>
+-J-Xms512M
+-J-Xmx3536M
+-J-Xss1M
+-J-XX:+CMSClassUnloadingEnabled
+-J-XX:+UseConcMarkSweepGC
+-J-XX:MaxPermSize=724M
+-J-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005
+*snip*
+```
+
+```
