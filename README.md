@@ -39,3 +39,14 @@ Install all the apps:
 $ brew file set_repo -r git@github.com:mumoshu/Brewfile
 $ brew file update
 ```
+
+[Configure IntelliJ IDEA for more performance](https://www.jetbrains.com/idea/help/tuning-intellij-idea.html
+):
+
+```
+$ cat ~/Library/Preferences/IntelliJIdea15/idea.vmoptions
+-Xms128m
+-Xmx2048m
+-XX:MaxPermSize=350m
+-XX:ReservedCodeCacheSize=240m
+```
