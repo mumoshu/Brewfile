@@ -54,6 +54,7 @@ brew rbenv-gem-rehash
 brew readline
 brew ruby-build
 brew sbt
+brew scala
 brew sqlite
 
 # App Store applications
@@ -62,3 +63,4 @@ appstore iMovie
 appstore Keynote
 appstore Numbers
 appstore Pages
+appstore Xcode
