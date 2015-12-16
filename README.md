@@ -68,8 +68,6 @@ $ cat /usr/local/etc/sbtops
 *snip*
 ```
 
-```
-
 Install aws-shell:
 
 (See https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Homebrew-and-Python.md#note-on-pip-install---user)
