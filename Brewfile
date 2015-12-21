@@ -8,6 +8,7 @@ cask 1password
 cask alfred
 cask chefdk
 cask cocoapods
+cask dockertoolbox
 cask dropbox
 cask google-chrome
 cask google-drive
@@ -20,9 +21,6 @@ cask skype
 cask slack
 cask vagrant
 cask virtualbox
-
-## mumoshu/go-jira
-tap mumoshu/go-jira
 
 ## rcmdnk/file
 tap rcmdnk/file
@@ -38,7 +36,6 @@ brew direnv
 brew elasticsearch
 brew gdbm
 brew git-flow
-brew go-jira
 brew hub
 brew libevent
 brew memcached
